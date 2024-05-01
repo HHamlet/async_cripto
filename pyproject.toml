@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "async-crypto"
+version = "0.1.0"
+description = "async request crypto and parse it"
+authors = ["HHamlet <hh.harutyunyan@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.5"
+fastapi = "^0.110.2"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+bs4 = "^0.0.2"
+uvicorn = "^0.29.0"
+redis = "^5.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
